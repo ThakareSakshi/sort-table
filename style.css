@@ -1,0 +1,61 @@
+*{
+    margin:0;
+     padding:0;
+     box-sizing: border-box;
+     text-align: center;
+}
+
+table{
+    padding:10px;
+    /* background-color: rgb(241, 214, 142); */
+    border-collapse: collapse;
+    width: 80%;
+    margin:30px 20px;
+     
+
+}
+
+tr:nth-child(1){
+  background-color: rgb(100, 135, 232);
+  color: white;
+ 
+}
+
+tr{
+    padding: 10px;
+    border: 2px solid rgb(100, 135, 232);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+ td{
+    padding:20px;
+    text-align: center;
+    text-transform: capitalize;
+ }
+  th{
+    padding:20px;
+    font-size: 26px;
+    text-transform: capitalize;
+  }
+  button{
+    padding:10px 35px;
+    background-color: rgb(101, 128, 248);
+    border:none;
+    color:white;
+    cursor: pointer;
+  }
+  button:hover{
+    color:rgb(106, 129, 247);
+    background: transparent;
+    border:1px solid rgb(102, 109, 235);
+  }
+  select{
+    padding:10px;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 181, 233);
+  }
